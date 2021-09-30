@@ -7,15 +7,6 @@
 // 优点：无需写commit message
 alias cf="git add . && git commit --amend --no-edit && ggpush -f"
 
-// 开发RN时快速安装app
-alias rrn='xcrun simctl install booted /Users/bingzhuren/Documents/app/discover.app'
-
-// 快速增加commit message
-alias gmm='git commit -m'
-
 // 删除已merge的分支
 alias gbdd="git pull -p;git branch -d \$(git branch --merged | egrep -v 'master|develop|^\*' | xargs)"
-
-// sublime的快捷打开方式
-alias sl=\''/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'\'
 ```
