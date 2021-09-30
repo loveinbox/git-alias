@@ -12,5 +12,7 @@ alias gbdd="git pull -p;git branch -d \$(git branch --merged | egrep -v 'master|
 
 # 安装加启动命令
 alias dd="yarn && yarn serve"
+
+# autojump的快捷方式
 [[ -s `brew --prefix`/etc/autojump.sh ]] && . `brew --prefix`/etc/autojump.sh
 ```
